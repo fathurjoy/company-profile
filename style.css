@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+.banner{
+    height: 90vh;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+.banner h1{
+    padding-top: 0px;
+    padding-left: 20px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif ;
+}
+/* .footer-content{
+    background-color:  #014998;
+}
+.footer-content img{
+    width: 200px;
+    height: 196px;
+    vertical-align: middle;
+}
+.logo-st{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 13rem;
+}  */
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer {
+    background-color: #014998;
+    box-sizing: border-box;
+    width: 100%;
+    /* text-align: left; */
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+}
+
+.footer .col-4 img {
+    width: 200px;
+    height: 196px;
+    vertical-align: middle;
+}
+
+.footer .row .col-4 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+}
+.footer .col-4 i {
+    background-color: #014998 ;
+    color: #ffffff;
+    font-size: 25px;
+}
+.footer .col-4 i.fa-envelope {
+    font-size: 17px;
+}
+.footer .col-4 p {
+    color: #ffffff;
+}
+.footer .col-4 p a {
+    color: rgb(28, 203, 234);
+    text-decoration: none;
+}  
+.footer-bottom{
+    background: #014998  ;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    color: white;
+}
+
+/* .footer .footer-center {
+    width: 35%;
+}
+
+.footer .footer-center i {
+    background-color: #014998 ;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 5px 10px;
+    padding-top: 3rem;
+    margin-left: 300px;
+    vertical-align: middle;
+} */
+
+/* .footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    /* line-height: 38px; 
+} */
+
+/* .footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    margin: 0px;
+    padding-left: 22rem;
+}
+
+.footer .footer-center p span {
+    /* display: block; */
+    /* font-weight: normal;
+    font-size: 14px;
+    /* line-height: 2; 
+} */
+
+/* .footer .footer-center p a {
+    color: rgb(22, 255, 177);
+    text-decoration: none;
+} */ 
